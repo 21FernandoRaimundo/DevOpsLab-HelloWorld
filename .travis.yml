@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $EROKU_API_KEY
-  app: teste-devopslab
+    secure: $HEROKU_API_KEY
+ app: teste-devopslab
